@@ -1,6 +1,9 @@
-# Deep Learning Lab II (L11)
-
-Download the repository as a zip folder and begin an R project for this lab. The zip folder will contain instructions (repeated below) and a template to get an Rmd file started.
+---
+title: "Deep Learning Lab II (L11)"
+author: "Data Science III (STAT 301-3)"
+date: "May 14th, 2018"
+output: html_document
+---
 
 # Overview
 
@@ -16,6 +19,12 @@ We have split the `wildfires.csv` dataset into a training dataset (`wildfires_tr
 
 Please complete the following exercises. Be sure your solutions are clearly indicated and that the document is neatly formatted.
 
+#### Load Packages
+
+```{r, message = FALSE}
+# Loading package(s)
+
+```
 <br>
 
 #### Exercise 1
@@ -25,7 +34,7 @@ We previously applied boosting, bagging, and random forests methods to build can
 
 Construct a table displaying the RMSE for the your fitted network(s) and the 3 tree-based models and the multiple regression model from CART Lab II (L04) fit in CART Lab II (L04). Which model is the best?
 
-<br>
+<br><br>
 
 #### Exercise 2
 Our goal is to predict whether a wildfire will reach the wildlife protection zone, as determined by the indicator variable `wlf`. Fit a small neural network, say 3 layers (2 hidden), to predict whether or not a wildfire with reach the wildfire protection zone. Consider exploring the use of a smaller or larger network.
