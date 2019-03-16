@@ -1,4 +1,4 @@
-# Deep Learning Lab II (L11)
+# L06 Deep Learning II
 
 Download the repository as a zip folder and begin an R project for this lab. The zip folder will contain instructions (repeated below) and a template to get an Rmd file started.
 
@@ -23,13 +23,13 @@ The total area burned by a wildfire is of great concern to government planners. 
 
 We previously applied boosting, bagging, and random forests methods to build candidate regression trees to predict the total area burned by a wildfire (`burned`). We also fit a multiple linear regression model that used all appropriate predictors for comparison.
 
-Construct a table displaying the RMSE for the your fitted network(s) and the 3 tree-based models and the multiple regression model from CART Lab II (L04) fit in CART Lab II (L04). Which model is the best?
+Construct a table displaying the RMSE for the your fitted network(s) and the 3 tree-based models and the multiple regression model fit in L02 CART. Which model is the best?
 
 <br>
 
 #### Exercise 2
 Our goal is to predict whether a wildfire will reach the wildlife protection zone, as determined by the indicator variable `wlf`. Fit a small neural network, say 3 layers (2 hidden), to predict whether or not a wildfire with reach the wildfire protection zone. Consider exploring the use of a smaller or larger network.
 
-Previously we utilized boosting, bagging, and random forests methods to build a candidate classification trees that predict whether a wildfire will reach this zone. We also benchmarked those methods against a multiple linear logistic model that utilized all predictors for comparison --- CART Lab II (L04). We also previously fit a support vector classifier and 2 support vector machines in SVM Lab II (L07).
+Previously we utilized boosting, bagging, and random forests methods to build a candidate classification trees that predict whether a wildfire will reach this zone. We also benchmarked those methods against a multiple linear logistic model that utilized all predictors for comparison --- L02 CART. We also previously fit a support vector classifier and 2 support vector machines in L03 SVM.
 
-Construct a table displaying the test error for the your fitted network(s), the 3 tree-based models and the multiple regression model from CART Lab II (L04) fit in CART Lab II (L04), and the 3 models fit in SVM Lab II (L07). Which model is the best?
+Construct a table displaying the test error for the your fitted network(s), the 3 tree-based models and the multiple regression model fit in L02 CART, and the 3 models fit in L03 SVM. Which model is the best?
